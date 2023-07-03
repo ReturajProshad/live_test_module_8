@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Contact List"),
+        title: const Text(" Contact List "),
         centerTitle: true,
       ),
       body: ListView.builder(
