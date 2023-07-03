@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
         itemBuilder: (context, index) {
           return ListTile(
             title: Text(contacts[index].name),
-            subtitle: Text(contacts[index].email),
+           // subtitle: Text(contacts[index].email),
             onTap: () {
               showContactDetails(context, contacts[index]);
             },
